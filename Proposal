@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+
+%% preamble: Keep it clean; only include those you need
+\usepackage{amsmath}
+\usepackage[margin = 1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{natbib}
+
+% for space filling
+\usepackage{lipsum}
+% highlighting hyper links
+\usepackage[colorlinks=true, citecolor=blue]{hyperref}
+
+
+%% meta data
+
+\title{Proposal: Modifiable Lifestyle factors affect Chronic Kidney Disease}
+\author{SHIYI PENG\\
+  Department of Statistics\\
+  University of Connecticut
+}
+
+\begin{document}
+\maketitle
+
+
+\paragraph{Introduction}
+
+Chronic Kidney Disease is a global health burden that increases the risk of premature death or reduced quality of life. However, Chronic Kidney Disease does not present with obvious symptoms until the later stages of the disease.Therefore,it is easy to ignore Chronic Kidney Disease until it becomes end stage renal disease, which requires dialysis or kidney transplant for whole life. We need to know how to protect our kidneys in our daily lives and how to slow down the progression of chronic kidney disease.The purpose of this narrative is to describe how diet affects the progression of CKD, such as nutrient control and beverage control. The article selected a variety of detection methods including observational studies, randomized controlled trials (RCT), and multivariable Cox proportional hazards models. The article did not consider the impact of other factors on CKD, such as obesity, sleep quality and genes.
+
+\paragraph{Specific Aims}
+
+The purpose of the article is to explore whether healthy diet can reduce the occurrence and development of chronic kidney disease.
+
+\paragraph{Data}
+One of Data is Measuring net acid excretion in participants in the Chronic Renal Insufficiency Cohort (CRIC) study\cite{scialla2017higher}.
+
+\paragraph{Research Design and Methods}
+Measured acid excretion in baseline 24-hour urine collections obtained in a randomly selected sample of 1000 participants from the CRIC Study. We calculated net acid excretion as the sum of urinary ammonium and titratable acidity, calculated from urinary pH, phosphorus, and creatinine. Nineteen urine samples with a pH >= 7.4 were excluded from further analysis due to concern for bacterial overgrowth. The ratio of urinary ammonium to urinary sulfate, a biomarker of acids produced from metabolism of sulfur-containing amino acids, was dramatically increased in these specimens (median 3.1 vs. 0.6 in urine samples with a pH >= 7.4 compared with <7.4; P < 0.01), suggesting exogenous ammonia production from urease-positive bacteria\cite{scialla2017higher}.
+
+\paragraph{Discussion}
+The 24-hour net acid excretion results do not primarily reflect the diet of patients with CKD. The decrease in urinary citrate we observed at lower eGFR suggests that diet-independent modulation of components of the acid load occurs in CKD.Several possible clinical scenarios should also be considered. First, reduced acid excretion may represent low overall food intake or altered body composition, which is associated with an increased risk of CKD progression. This does not fully explain our results, as we found similar relationships between high and low caloric intake.Second, lower acid excretion coupled with stable estimates of nonvolatile acid load across the eGFR spectrum may represent net acid retention that could be harmful\cite{scialla2017higher}.
+
+\paragraph{Conclusion}
+
+The article summarizes the impact of individual nutrients, dietary patterns, fluid intake, exercise, and obesity on chronic kidney disease, but does not consider the impact of legal additives in food on CKD, as well as the genetic factors of the human body itself.
+
+\bibliography{../manuscript/refs}
+\bibliographystyle{chicago}
+
+\end{document}
