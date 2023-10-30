@@ -28,3 +28,15 @@
 Chronic kidney disease (CKD) is a common and increasingly serious disease. This article provides a comprehensive review of the impact of diet on CKD, integrating the latest research. Extensive literature demonstrates that dietary choices play a critical role in the emergence, development, and control of CKD. This article discusses key dietary factors such as protein, carbohydrate intake, and management of sodium, phosphorus, and potassium in the context of CKD prevention and treatment. Additionally, the impact of carbonated beverages on CKD, dietary patterns such as the Dietary Approaches to Prevent Hypertension (DASH) and the importance of the Mediterranean diet were examined.Although some studies in the literature are limited by region and small sample size, the importance of these summaries cannot be completely denied. Maintaining a healthy and appropriate diet can better protect our kidneys.
 \vspace{\baselineskip}
 \end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+
+Chronic Kidney Disease is a global health burden that increases the risk of premature death or reduced quality of life. However, Chronic Kidney Disease does not present with obvious symptoms until the later stages of the disease.Therefore,it is easy to ignore Chronic Kidney Disease until it becomes end stage renal disease, which requires dialysis or kidney transplant for whole life. We need to know how to protect our kidneys in our daily lives and how to slow down the progression of chronic kidney disease.The purpose of this narrative is to describe how diet affects the progression of CKD, such as nutrient control and beverage control. The article selected a variety of detection methods including observational studies, randomized controlled trials (RCT), and multivariable Cox proportional hazards models. The article did not consider the impact of other factors on CKD, such as obesity, sleep quality and genes.
+
+% roadmap
+The rest of the paper is organized as follows.
+The adopted statistical analysis methods in Section~\ref{sec:meth}.
+The Main limitations are reported in Section~\ref{sec:resu}.
+A discussion concludes in Section~\ref{sec:disc}.
