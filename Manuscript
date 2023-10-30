@@ -1,0 +1,21 @@
+\documentclass[12pt]{article}
+
+%% preamble: Keep it clean; only include those you need
+\usepackage{amsmath}
+\usepackage[margin = 1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{natbib}
+
+% for space filling
+\usepackage{lipsum}
+% highlighting hyper links
+\usepackage[colorlinks=true, citecolor=blue]{hyperref}
+
+\usepackage{hyphenat}
+\hyphenation{word-list} %
+%% meta data
+
+\title{Impact of diet on chronic kidney disease}
+\author{SHIYI PENG\\
+}
