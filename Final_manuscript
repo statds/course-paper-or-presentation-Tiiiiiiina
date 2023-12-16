@@ -61,3 +61,53 @@ A discussion concludes in Section~\ref{sec:disc}.
 \begin{equation}
 log(\frac{\pi}{1-\pi})=\beta_{0}+\beta_{1}\times\X_{1}+\beta_{2}\times\X_{2}+\cdots\beta_{m}\times\X_{m}
 \end{equation}
+
+where $\pi$ indicates the probability of an event,and $\beta_{i}$ are the regression coefficients associated with the reference group and the explanatory variables. At this point, it is crucial to emphasize an important concept. In this context, I utilized the R programming language to gather and process all the data. Upon importing the data using R, the initial Table~\ref{tab1} and Figure~\ref{fig1} was generated, illustrating the relationship between the father's professional reputation and the student's graduation status.
+
+\begin{table}
+    \centering
+    \begin{tabular}{ccccc}
+        \hline
+Coefficients& & & & \\ 
+\hline
+&Estimate &Std.Error& Z value & Pr($\geq$|z|)\\ 
+\hline
+(Intercept)& -1.50539 & 0.23886& -6.302&2.93e-10 \\ 
+\hline
+Prestige Score & 0.03422 & 0.00581 & 5.890&3.86e-09 \\ 
+\hline
+    \end{tabular}
+    \caption{The results of the model coefficient p-value for Q1a}
+    \label{tab1}
+\end{table}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{Q1.png}
+    \caption{Details report for Q1a}
+    \label{fig1}
+\end{figure}
+
+From the Figure~\ref{fig1}, the p-value significantly falls below 0.05, indicating a strong belief that the reputation score of the father's profession influences the student's likelihood of obtaining a graduation certificate.
+
+
+\begin{table}
+    \centering
+    \begin{tabular}{cccccc}
+        \hline
+Coefficients& & & & \\ 
+\hline
+&Estimate &Std.Error& Z value & Pr($\geq$|z|)\\ 
+\hline
+(Intercept)& -1.691144 & 0.270324& -6.256&3.95e-10 \\ 
+\hline
+Prestige Score & 0.035223 & 0.005873 & 5.997&2.01e-09 \\ 
+\hline
+Sex2 & 0.292732 & 0.189206 & 1.547&0.122 \\ 
+\hline
+    \end{tabular}
+    \caption{The results of the model coefficient p-value for Q1b}
+    \label{tab2}
+\end{table}
+
+
