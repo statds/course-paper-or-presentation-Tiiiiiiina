@@ -110,4 +110,30 @@ Sex2 & 0.292732 & 0.189206 & 1.547&0.122 \\
     \label{tab2}
 \end{table}
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{Q2.png}
+    \caption{Enter Caption}
+    \label{fig2}
+\end{figure}
+
+Conversely,Figure~\ref{fig2} eveals a p-value well above 0.05. Consequently, it is inferred that, after accounting for the reputation score of the father's profession, there exists no gender disparity among students who successfully attain the graduation certificate.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{Q2a.png}
+    \caption{Q2a p-value obtained from resampling}
+    \label{fig3}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{Q2b.png}
+    \caption{Q2 p-value obtained from resampling}
+    \label{fig4}
+\end{figure}
+
+To rigorously evaluate the model's performance,now we start use resampling methods were employed which install bootstrap package to process self-sampling. This package includes a resampling method crucial for assessing the model's effectiveness.As illustrated in Figure~\ref{fig3}, the obtained p-value is notably below the 0.05 threshold. This outcome robustly supports the assertion that the Fathers' Career Reputation Score significantly influences students' likelihood of earning a diploma.This resampling approach provides a robust validation mechanism, ensuring the reliability of the model's predictions and emphasizing the crucial role played by the reputation score of the father's profession in shaping students' educational outcomes.
+
+Additionally, the compelling evidence presented in Figure~\ref{fig4} reveals a p-value that markedly exceeds the 0.05 threshold. This robustly supports and corroborates the initial hypothesis. Therefore, the sustained conclusion is that, even after meticulous adjustment for the reputation score of the father's profession, no discernible gender differences manifest among students who successfully obtain the coveted graduation certificate.This finding underscores the significance of considering the father's professional reputation as a crucial factor, with gender neutrality emerging once this variable is taken into account. The comprehensive analysis ensures a nuanced understanding of the multifaceted factors influencing students' educational achievements.
 
