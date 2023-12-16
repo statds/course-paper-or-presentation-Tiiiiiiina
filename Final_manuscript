@@ -53,3 +53,11 @@ The rest of the paper is organized as follows.
 The adopted statistical analysis methods in Section~\ref{sec:meth}.
 The Main limitations are reported in Section~\ref{sec:resu}.
 A discussion concludes in Section~\ref{sec:disc}.
+
+\section{Methods}
+\label{sec:meth}
+ The decision to employ logistic regression is grounded in the nature of the Prestige score for the father's occupation, which is a continuous variable. This analytical choice allows for a comprehensive exploration of the associations among all variables while effectively mitigating potential confounding effects.By adopting logistic regression, this study aims to unravel the intricate interplay of various factors and their impact on the likelihood of students obtaining a diploma. The continuous nature of the Prestige score necessitates a method that can adeptly handle such variables, making logistic regression a fitting choice for robust analysis.As we delve into the complexities of logistic regression, it becomes evident that this modeling approach provides a sophisticated means of understanding the relationships between variables, shedding light on the nuanced dynamics that influence educational outcomes. This nuanced understanding, in turn, contributes to the broader goal of promoting educational equity and informed decision-making within the educational landscape.In summary, logistic regression emerges as a valuable analytical tool in this study, offering a methodological approach that aligns with the study's objectives and the nature of the variables under scrutiny. Through this lens, we seek to unravel the intricacies of educational outcomes and the factors that shape them, paving the way for more targeted and effective interventions.This approach enables a nuanced understanding of the impact of various factors, including the continuous Prestige score, on the likelihood of the outcome\cite{sperandei2014understanding}.The model looks like this:
+
+\begin{equation}
+log(\frac{\pi}{1-\pi})=\beta_{0}+\beta_{1}\times\X_{1}+\beta_{2}\times\X_{2}+\cdots\beta_{m}\times\X_{m}
+\end{equation}
