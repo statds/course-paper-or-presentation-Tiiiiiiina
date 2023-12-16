@@ -1,0 +1,41 @@
+\begin{table}
+    \centering
+    \begin{tabular}{ccccc}
+        \hline
+Coefficients& & & & \\ 
+\hline
+&Estimate &Std.Error& Z value & Pr($\geq$|z|)\\ 
+\hline
+(Intercept)& -1.50539 & 0.23886& -6.302&2.93e-10 \\ 
+\hline
+Prestige Score & 0.03422 & 0.00581 & 5.890&3.86e-09 \\ 
+\hline
+    \end{tabular}
+    \caption{The results of the model coefficient p-value for Q1a}
+    \label{tab1}
+\end{table}
+
+
+\begin{table}
+    \centering
+    \begin{tabular}{cccccc}
+        \hline
+Coefficients& & & & \\ 
+\hline
+&Estimate &Std.Error& Z value & Pr($\geq$|z|)\\ 
+\hline
+(Intercept)& -1.691144 & 0.270324& -6.256&3.95e-10 \\ 
+\hline
+Prestige Score & 0.035223 & 0.005873 & 5.997&2.01e-09 \\ 
+\hline
+Sex2 & 0.292732 & 0.189206 & 1.547&0.122 \\ 
+\hline
+    \end{tabular}
+    \caption{The results of the model coefficient p-value for Q1b}
+    \label{tab2}
+\end{table}
+
+
+\begin{equation}
+log(\frac{\pi}{1-\pi})=\beta_{0}+\beta_{1}\times\X_{1}+\beta_{2}\times\X_{2}+\cdots\beta_{m}\times\X_{m}
+\end{equation}
